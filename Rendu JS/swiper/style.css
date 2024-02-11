@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: orange;
+}
+.swiper-slide{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+}
+.cdi{
+background: url('https://www.iim.fr/ecole-web/wp-content/uploads/2023/01/code.jpg') no-repeat center center fixed; 
+background-size: cover;
+}
+
+.cd{
+    background: url('https://www.iim.fr/ecole-web/wp-content/uploads/2023/01/DSC09191.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.cdeb{
+    background: url('https://www.iim.fr/ecole-web/wp-content/uploads/2023/01/gamer.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.troisd{
+    background: url('https://www.iim.fr/ecole-web/wp-content/uploads/2023/01/designer3d.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.jv{
+    background: url('https://www.iim.fr/ecole-web/wp-content/uploads/2023/01/jeu-video-fille.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.title{
+    color: orange;
+    font-size: 60px;
+}
+
+.subtitle{
+    color: white;
+    font-size: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tableau{
+    width: 500px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 120px;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-template-columns: repeat(5,lfr);
+}
+
+li {
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 400;
+    width: 20%;
+}
+
+.contenu {
+    background-color: #ffffff;
+    color: black;
+    padding: 50px 40px;
+}
+
+.contenu h4 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: orange;
+    font-weight: 400;
+}
+
+.contenu p {
+    text-align: justify;
+    color: black;
+}
+
+.contenu div {
+    display: none;
+}
+
+.contenu .actif {
+    display: block;
+}
+
+.tabs .actif {
+    background-color: white;
+    color: black;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body.dark{
+    background-color: black;
+}

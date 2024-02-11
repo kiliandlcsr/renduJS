@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="message-error">
+        <ul></ul>
+    </div>
+
+    <div class="message-success">
+        Formulaire envoyé avec succès !
+    </div>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom">
+        </div>
+        <div>
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email">
+        </div>
+        <div>
+            <label for="age">Âge</label>
+            <input type="number" id="age" name="age" placeholder="Votre âge">
+        </div>
+        <div>
+            <label for="axe">Axe</label>
+            <select name="cours" id="axe">
+                <option value="">--faites votre choix--</option>
+                <option value="CDI">Coding Digital Innovation</option>
+                <option value="CD">Creation Design</option>
+                <option value="CDEB">Communication digitale et E-Business</option>
+                <option value="3D">3D ou la mort</option>
+                <option value="JV">Jeu vidéal</option>
+            </select>
+        </div>
+        <div>
+            <label>Classe (optionnel) :</label>
+            <input type="radio" name="classe" id="seconde" value="Seconde">
+            <label for="seconde">Seconde</label>
+        </div>
+        <div>
+            <input type="radio" name="classe" id="premiere" value="Première">
+            <label for="premiere">Première</label>
+        </div>
+        <div>
+            <input type="radio" name="classe" id="terminale" value="Terminale">
+            <label for="terminale">Terminale</label>
+        </div>
+        <div>
+            <input type="radio" name="classe" id="autre" value="Autre">
+            <label for="autre">Autre</label>
+        </div>
+        <button type="submit">Envoyer </button>
+    </form>
+    <div class="switch">
+        <button>Dark mode</button>
+    </div>
+
+
+    <script src="main.js"> </script>
+    <script src="../swiper/footer.js"></script>
+</body>
+
+</html>
